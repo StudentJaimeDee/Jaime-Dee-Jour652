@@ -12,7 +12,7 @@ body {
   width: 100%;
   max-width: 1200px;
   margin: 0 auto;
-  padding-bottom: 50px; ``
+  padding-bottom: 50px;
 }
 
 /* banner name i.e."Jaime Dee" */
@@ -41,6 +41,7 @@ body {
 }
 
 /* resume sections i.e. "Experience" */
+/* I added some padding to the left because it seems as though Adam did the same thing */
 .sectionheader {
   font-size: 1.5em;
   text-transform: uppercase;
@@ -52,9 +53,11 @@ body {
   margin-left: 0;
   width: 70%;
   min-width: 300px;
+  padding-left: 20px;
 }
 
 /* job titles */
+/* I made the job titles black because it looks like Adam did as well */
 .jobtitle {
   font-weight: 600;
   font-size: 1.5em;
