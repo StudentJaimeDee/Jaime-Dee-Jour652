@@ -28,9 +28,15 @@ body {
 }
 
 /* title i.e. "Entertainment Professional"*/
-strong {
+#title {
   text-transform: uppercase;
   font-size: 1.5em;
+  font-weight: 600;
+  text-align: center;
+  margin-top: 20px;
+  margin-bottom: 0;
+  margin-left: 0;
+  margin-right: 0;
   color: #33485e;
 }
 
@@ -52,6 +58,7 @@ strong {
 .jobtitle {
   font-weight: 600;
   font-size: 1.5em;
+  color: black;
 }
 
 /* company titles */
@@ -82,6 +89,9 @@ strong {
   margin: 0;
   padding: 0;
   text-align: center;
+}
+
+.menu li {
   display: inline;
 }
 
@@ -97,6 +107,13 @@ strong {
   margin-bottom: 0;
   margin-left: 0;
   margin-right: 0;
+}
+
+.top {
+  width: 60%;
+  min-width: 300px;
+  margin: 0 auto;
+  margin-bottom: 30px;
 }
 
 /* list items */
