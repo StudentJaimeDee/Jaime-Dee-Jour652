@@ -8,12 +8,23 @@ body {
   font-weight: 400;
 }
 
+#container {
+  width: 100%;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding-bottom: 50px; ``
+}
+
 /* banner name i.e."Jaime Dee" */
-h1 {
+#name {
   font-size: 3em;
   color: #33485e;
   text-transform: uppercase;
   text-align: center;
+  border-bottom: 1px solid #33485e;
+  width: 60%;
+  min-width: 300px;
+  margin: 0 auto;
 }
 
 /* title i.e. "Entertainment Professional"*/
@@ -24,30 +35,40 @@ strong {
 }
 
 /* resume sections i.e. "Experience" */
-h2 {
+.sectionheader {
   font-size: 1.5em;
   text-transform: uppercase;
   background-color: #33485e;
   color: #fff;
+  margin-top: 20px;
+  margin-bottom: 10px;
+  margin-right: 0;
+  margin-left: 0;
+  width: 70%;
+  min-width: 300px;
 }
 
 /* job titles */
-h3 {
+.jobtitle {
   font-weight: 600;
   font-size: 1.5em;
 }
 
 /* company titles */
-h4 {
+.organiztion {
   font-weight: 400;
-  font-size: 1.5em;
+  font-size: 1.25em;
 }
 
 /* dates worked */
-h5 {
+.date {
   font-weight: 400;
   font-style: italic;
   font-size: 1em;
+  margin-top: 2px;
+  margin-bottom: 0;
+  margin-right: 0;
+  margin-left: 0;
 }
 
 /* list items */
