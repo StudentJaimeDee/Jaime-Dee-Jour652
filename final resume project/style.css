@@ -13,15 +13,15 @@ body {
   width: 100%;
 }
 
-/* THIS IS FOR EVERYTHING IN CLASS A */
+/* START OF ID A */
 #a {
-  background-color: #white;
+  background-color: white;
 
 }
 
 /* Circle Photo */
 .headshot {
-  width: 450px;
+  width: 400px;
 
 }
 
@@ -40,6 +40,12 @@ body {
 }
 
 /* Contact Details */
+.menu {
+  margin: 0;
+  padding: 4px;
+  text-align: center;
+}
+
 .menu li {
   display: inline;
   font-size: 1.3em;
@@ -69,21 +75,29 @@ body {
   padding-bottom: 20px;
   color: black;
 }
-/* END OF CLASS A */
+/* END OF ID A */
 
+
+
+/* START OF ID B*/
+
+#b {
+  background-color: #f2efe1;
+
+}
 
 /* resume sections i.e. "Experience" */
 /* I added some padding to the left because it seems as though Adam did the same thing */
 .sectionheader {
-  font-size: 1.5em;
+  font-size: 2.5em;
   text-transform: uppercase;
-  background-color: #33485e;
-  color: #fff;
+  background-color: #c2d5f3;
+  color: black;
   margin-top: 20px;
   margin-bottom: 10px;
   margin-right: 0;
   margin-left: 0;
-  width: 70%;
+  width: 100%;
   min-width: 300px;
   padding-left: 20px;
 }
@@ -118,21 +132,43 @@ body {
   margin-bottom: 10px;
   margin-left: 0;
   margin-right: 0;
+  padding-bottom: 20px;
 }
+/* END OF ID B*/
 
-.menu {
-  margin: 0;
-  padding: 0;
-  text-align: center;
+/* START OF ID C*/
+#c {
+  background-color: white;
 }
+/* END OF ID C*/
 
 
+/* START OF ID D*/
+#d {
+  background-color: #f2efe1;
 
-#degrees {
+}
+/* END OF ID D*/
+
+
+.degrees {
   margin-top: 5px;
   margin-bottom: 0;
   margin-left: 0;
   margin-right: 0;
+}
+
+.degrees li {
+  font-weight: 400;
+  font-size: 1.5em;
+  color: black;
+  margin: 0 auto;
+}
+
+/* START OF ID E*/
+#e {
+  background-color: white;
+
 }
 
 #do {
@@ -141,9 +177,4 @@ body {
   margin-left: 0;
   margin-right: 0;
 }
-
-
-/* list items */
-ul {
-  font-size: 1em;
-}
+/* END OF ID E*/
