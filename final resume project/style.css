@@ -13,6 +13,10 @@ body {
   font-weight: 400;
 }
 
+/* Nav bar text */
+.navbar-brand {
+  font-size: 1.8em;
+}
 
 .bg-light {
   background-color: #c2d5f3 !important;
@@ -42,7 +46,7 @@ body {
 
 /* banner name i.e."Jaime Dee" */
 #name {
-  font-size: 3em;
+  font-size: 3.9em;
   font-weight: 600;
   color: #a80301;
   text-transform: uppercase;
@@ -66,11 +70,13 @@ body {
   font-size: 1.3em;
   padding-top: 20px;
 }
+/* END Contact Details */
+
 
 /* title i.e. "Entertainment Professional"*/
 #title {
   text-transform: uppercase;
-  font-size: 1.9em;
+  font-size: 2.0em;
   font-weight: 600;
   text-align: center;
   margin-top: 20px;
@@ -86,7 +92,9 @@ body {
   width: 60%;
   min-width: 300px;
   margin: 0 auto;
+  text-align: center;
   margin-bottom: 30px;
+  padding-top: 10px;
   padding-bottom: 20px;
   color: black;
 }
@@ -102,7 +110,7 @@ body {
 
 /* I added some padding to the left because it seems as though Adam did the same thing */
 .sectionheader {
-  font-size: 2.5em;
+  font-size: 2.0em;
   text-transform: uppercase;
   background-color: #c2d5f3;
   color: black;
