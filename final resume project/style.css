@@ -8,11 +8,11 @@ body {
   font-weight: 400;
 }
 
-#container {
-  width: 100%;
-  max-width: 1200px;
-  margin: 0 auto;
-  padding-bottom: 50px;
+
+/* THIS IS FOR EVERYTHING IN CLASS A */
+#a {
+  background-color: #d7fecc;
+
 }
 
 /* banner name i.e."Jaime Dee" */
@@ -25,6 +25,16 @@ body {
   width: 60%;
   min-width: 300px;
   margin: 0 auto;
+  padding-top: 20px;
+}
+
+.headshot {
+  width: 21.5%;
+  float: right;
+}
+
+.menu li {
+  display: inline;
 }
 
 /* title i.e. "Entertainment Professional"*/
@@ -39,6 +49,16 @@ body {
   margin-right: 0;
   color: #33485e;
 }
+
+.top {
+  width: 60%;
+  min-width: 300px;
+  margin: 0 auto;
+  margin-bottom: 30px;
+  padding-bottom: 20px;
+}
+/* END OF CLASS A */
+
 
 /* resume sections i.e. "Experience" */
 /* I added some padding to the left because it seems as though Adam did the same thing */
@@ -94,9 +114,7 @@ body {
   text-align: center;
 }
 
-.menu li {
-  display: inline;
-}
+
 
 #degrees {
   margin-top: 5px;
@@ -112,12 +130,6 @@ body {
   margin-right: 0;
 }
 
-.top {
-  width: 60%;
-  min-width: 300px;
-  margin: 0 auto;
-  margin-bottom: 30px;
-}
 
 /* list items */
 ul {
