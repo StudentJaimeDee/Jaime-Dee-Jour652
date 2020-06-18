@@ -8,54 +8,66 @@ body {
   font-weight: 400;
 }
 
+/* Banner Image */
+.splash-image {
+  width: 100%;
+}
 
 /* THIS IS FOR EVERYTHING IN CLASS A */
 #a {
-  background-color: #d7fecc;
+  background-color: #white;
+
+}
+
+/* Circle Photo */
+.headshot {
+  width: 450px;
 
 }
 
 /* banner name i.e."Jaime Dee" */
 #name {
   font-size: 3em;
-  color: #33485e;
+  font-weight: 600;
+  color: #a80301;
   text-transform: uppercase;
   text-align: center;
-  border-bottom: 1px solid #33485e;
+  border-bottom: 2.5px solid black;
   width: 60%;
   min-width: 300px;
   margin: 0 auto;
   padding-top: 20px;
 }
 
-.headshot {
-  width: 21.5%;
-  float: right;
-}
-
+/* Contact Details */
 .menu li {
   display: inline;
+  font-size: 1.3em;
+  padding-top: 20px;
 }
 
 /* title i.e. "Entertainment Professional"*/
 #title {
   text-transform: uppercase;
-  font-size: 1.5em;
+  font-size: 1.9em;
   font-weight: 600;
   text-align: center;
   margin-top: 20px;
-  margin-bottom: 0;
+  margin-bottom: .9px;
   margin-left: 0;
   margin-right: 0;
-  color: #33485e;
+  color: black;
 }
 
 .top {
+  font-size: 1.0em;
+  font-weight: 350;
   width: 60%;
   min-width: 300px;
   margin: 0 auto;
   margin-bottom: 30px;
   padding-bottom: 20px;
+  color: black;
 }
 /* END OF CLASS A */
 
