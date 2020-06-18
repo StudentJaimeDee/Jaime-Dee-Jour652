@@ -1,11 +1,21 @@
 /* styles for my resume */
 
+/* This is for my nav bar to help it scroll down the page */
+html { 
+  scroll-behavior: smooth; 
+} 
+
 /* this consists of everything on my page */
 body {
   font-family: "Open Sans", arial, sans-serif;
   font-size: 1em;
   color: #444;
   font-weight: 400;
+}
+
+#navbar {
+  color: red;
+  background-color: black;
 }
 
 /* Banner Image */
