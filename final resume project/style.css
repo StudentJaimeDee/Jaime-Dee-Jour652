@@ -167,15 +167,16 @@ body {
 /* job titles */
 /* I made the job titles black because it looks like Adam did as well */
 .jobtitle {
-  font-weight: 600;
+  font-weight: 725;
   font-size: 1.5em;
   color: black;
 }
 
 /* company titles */
-.organiztion {
-  font-weight: 400;
-  font-size: 1.25em;
+.organization {
+  font-weight: 400 bold;
+  font-size: 1.2em;
+
 }
 
 /* dates worked */
@@ -217,14 +218,19 @@ body {
 
 .degrees {
   margin-top: 10px;
-  margin-bottom: 10px;
   margin-left: 0;
   margin-right: 0;
-  padding-bottom: 20px;
-  font-weight: 400;
+  font-weight: 600;
   font-size: 1.5em;
   color: black;
 }
+
+/* company titles */
+.school {
+  font-weight: 400;
+  font-size: 1.2em;
+}
+
 /* END OF ID D*/
 
 
