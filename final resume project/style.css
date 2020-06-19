@@ -18,6 +18,7 @@ body {
   font-size: 1.8em;
 }
 
+/* Nav bar background */
 .bg-light {
   background-color: #c2d5f3 !important;
   border-top: 5.5px solid black;
@@ -58,34 +59,20 @@ body {
   padding-top: 20px;
 }
 
-/* Contact Details */
-.menu {
-  margin: 0;
-  padding: 4px;
-  text-align: center;
-}
-
-.menu li {
-  display: inline;
-  font-size: 1.3em;
-  padding-top: 20px;
-}
-/* END Contact Details */
-
-
 /* title i.e. "Entertainment Professional"*/
 #title {
   text-transform: uppercase;
   font-size: 2.0em;
   font-weight: 600;
   text-align: center;
-  margin-top: 20px;
+  margin-top: 15px;
   margin-bottom: .9px;
   margin-left: 0;
   margin-right: 0;
   color: black;
 }
 
+/* Mission Statement */
 .top {
   font-size: 1.0em;
   font-weight: 350;
@@ -93,22 +80,72 @@ body {
   min-width: 300px;
   margin: 0 auto;
   text-align: center;
-  margin-bottom: 30px;
+  margin-bottom: 20px;
   padding-top: 10px;
   padding-bottom: 20px;
   color: black;
 }
+
+/* Contact Details */
+
+/* This controls the whole entire list and its surrondings */
+.menu {
+  margin: 0;
+  padding: 0px;
+  text-align: center;
+  margin-bottom: 40px;
+}
+
+/* This controls each list item */
+.menu li {
+  display: inline;
+  font-size: 1.7em;
+  padding-top: 20px;
+  font-weight: bold;
+}
+
+/* This changes text color because I put this tag inside the <a> of the list item */
+.menu-item {
+  color: black;
+  background-color: #c2d5f3;
+  padding-top: 4px;
+  padding-bottom: 4px;
+  padding-left: 4px;
+  padding-right: 4px;
+  margin-left: 8px;
+  margin-right: 5px;
+  border-top: 3.5px solid black;
+  border-left: 3.5px solid black;
+  border-right: 3.5px solid black;
+  border-bottom: 3.5px solid black;
+}
+
+/* visited link */
+.menu-item:visited {
+  color: blue;
+}
+
+/* mouse over link */
+.menu-item:hover {
+  color: red;
+}
+
+/* selected link */
+.menu-item:active {
+  color: blue;
+}
+/* END Contact Details */
 /* END OF ID A */
 
 
 
 /* START OF ID B (EXPERIENCE)*/
-
 #b {
   background-color: #f2efe1;
 }
 
 /* I added some padding to the left because it seems as though Adam did the same thing */
+/* Each Section i.e. experience, set experience, education and skills */
 .sectionheader {
   font-size: 2.0em;
   text-transform: uppercase;
@@ -152,6 +189,7 @@ body {
   margin-left: 0;
 }
 
+/* Job descriptions */
 .description {
   margin-top: 10px;
   margin-bottom: 10px;
@@ -167,6 +205,7 @@ body {
 #c {
   background-color: white;
 }
+/* It ended so fast because most of "c's" items are controlled in "b's" section. */
 /* END OF ID C*/
 
 
@@ -177,17 +216,14 @@ body {
 }
 
 .degrees {
-  margin-top: 5px;
-  margin-bottom: 0;
+  margin-top: 10px;
+  margin-bottom: 10px;
   margin-left: 0;
   margin-right: 0;
-}
-
-.degrees li {
+  padding-bottom: 20px;
   font-weight: 400;
   font-size: 1.5em;
   color: black;
-  margin: 0 auto;
 }
 /* END OF ID D*/
 
