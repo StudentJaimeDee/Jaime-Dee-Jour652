@@ -11,10 +11,22 @@
 
 /* headline */
 h1 {
-  font-family: helvetica, sans-serif;
-  font-size: 40px;
+  font-family: sans-serif;
+  font-size: 60px;
   font-weight: bold;
+}
 
+/*subhead under the headline */
+h2 {
+  font-family: sans-serif;
+  font-size: 20px;
+  font-style: italic;
+}
+
+.subhead {
+  font-family: sans-serif;
+  font-size: 45px;
+  text-align: center;
 }
 
 /*photo under the banner I DID NOTHING HERE!*/
@@ -30,14 +42,20 @@ color: #9ea4ca
 /*byline under photo */
 #byline {
   fontfamily: helvetica, sans-serif;
-  font-size: 14px;
-  font-style: italic;
+  font-size: 16px;
 }
+
+/*date under byline */
+#date {
+  fontfamily: helvetica, sans-serif;
+  font-size: 16px;
+}
+
 
 /* all of the text */
 p {
-  font-family: georgia, serif;
-  font-size: 16px;
+  font-family: helvetica, arial, sans-serif;
+  font-size: 17.5px;
 }
 
 /* pull quote*/
@@ -46,7 +64,7 @@ p {
     margin: auto;
     width: 200px;
     background: url(images/openquote.gif) top left no-repeat;
-    color: #030;
+    color: #0600ff;
     font-size: 26px;
     line-height: 0.9;
     font-style: italic;
