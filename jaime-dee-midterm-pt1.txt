@@ -1,0 +1,82 @@
+Jour352/652: Midterm
+Part 1: Q&A
+
+
+Directions: When you are done, please save your document as “your-name-midterm-pt1.txt” and submit on ELMS.
+
+****
+
+
+1.  In the sentence below, put in the necessary code that would allow users to click on the word Google and open Google's homepage in a new browser:
+
+  Answer: <a href="https://www.google.com" target=_blank>Google</a>
+
+2.  Describe the purpose of a DIV tag.
+
+  Answer: A div tag is an invisible container that surrounds the content you place it above and below. By using the <div> tag above your content of choice and the </div> tag below your content of your choice, this gives you control of styling that part of your "boxed" content in your HTML document if needed.
+
+3.  Write out the basic structure of an HTML page, putting the basic tags in the correct position.  (Note: you don't need to connect it to a stylesheet or include DIV tags or anything like that).
+
+<!DOCTYPE html>
+
+<html lang="en">
+
+  <head>
+
+    <title>Hello World</title>
+
+  </head>
+
+<body>
+
+</body>
+
+</html>
+
+4.  There are two main "areas" or "sections" in the basic structure of an HTML page. In which area would you put a link to a stylesheet?
+
+  Answer: You put a link to a stylesheet in the "head" section.
+
+5.  In which main "area" or "section" of an HTML page would you put text, images or DIV tags?
+
+  Answer: You put your text, images and div tags in your "body" section.
+
+6.  In the space below, put one DIV tag with a class of graphicbox and a second DIV tag with an ID of name.
+
+
+  Answer: <div class="graphicbox"></div>
+
+          <div id="name"></div>
+
+7.  In the space below, put one DIV tag with an ID of apples and a class of fruit.
+
+  Answer: <div id="apples"></div>
+
+          <div class="fruit"></div>
+
+8.  In the space below, write the correct CSS code to target a DIV with a class of fruit.  Make the color of the text black (#000000).
+
+  Answer: .fruit {
+    color: #000000;
+  }
+
+9.  What tag would we use to include an image on an HTML page? Just give me the name of the tag, you don't have to write out all the code.
+
+  Answer: <img>
+
+
+10.  Why do we use media queries?
+
+  Answer: We use media queries to allow us to change the style of an element at different screen sizes. It is the key to responsive design.
+
+11. What is the main difference between a serif and a sans-serif font?
+
+  Answer: Serif type has feet at the end of the letters. This type is more traditional.
+          Sans-serfic type does not have feet at the end of the letters. This type is more modern.
+
+12. Which of the following is a hexadecimal code?
+
+  Answer: This is a hexadecimal code -> #FFCC33
+    123,543,242
+    101010101
+    -213
