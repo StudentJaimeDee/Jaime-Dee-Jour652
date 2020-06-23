@@ -17,14 +17,14 @@ h1 {
 
 }
 
-/*photo under the banner */
+/*photo under the banner I DID NOTHING HERE!*/
 .coverphoto {
 
 }
 
-/*caption under the banner */
+/*caption under the banner and photos */
 .caption {
-
+color: #9ea4ca
 }
 
 /*byline under photo */
@@ -39,3 +39,28 @@ p {
   font-family: georgia, serif;
   font-size: 13px;
 }
+
+/* pull quote*/
+.pquote {
+    float: left;
+    margin: auto;
+    width: 200px;
+    background: url(images/openquote.gif) top left no-repeat;
+    color: #030;
+    font-size: 26px;
+    line-height: 0.9;
+    font-style: italic;
+    padding: 13px;
+}
+
+blockquote {
+    margin: 0; /* gets rid of the default blockquote margin */
+    padding: 13px;
+    border-left: 4px solid #ccc;
+}
+
+.pquote p:first-letter {
+    font-size: 39px;
+    font-weight: bold;
+}
+/* END PULL QUOTE */
