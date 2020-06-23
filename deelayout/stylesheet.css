@@ -1,8 +1,15 @@
+/* Banner on top of the page */
+.banner {
+  margin: 0 auto;
+}
+
+/* this formats the page */
 #content {
  margin: 0 auto;
  width: 900px;
 }
 
+/* headline */
 h1 {
   font-family: helvetica, sans-serif;
   font-size: 40px;
@@ -10,12 +17,24 @@ h1 {
 
 }
 
+/*photo under the banner */
+.coverphoto {
+
+}
+
+/*caption under the banner */
+.caption {
+
+}
+
+/*byline under photo */
 #byline {
   fontfamily: helvetica, sans-serif;
   font-size: 14px;
   font-style: italic;
 }
 
+/* all of the text */
 p {
   font-family: georgia, serif;
   font-size: 13px;
