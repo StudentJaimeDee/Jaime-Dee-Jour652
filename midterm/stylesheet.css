@@ -19,13 +19,20 @@ h1 {
 /*subhead under the headline */
 h2 {
   font-family: sans-serif;
-  font-size: 20px;
+  font-size: 17px;
   font-style: italic;
+  text-align: center;
 }
 
+/* Subheads on the page in general */
 .subhead {
   font-family: sans-serif;
   font-size: 45px;
+  text-align: center;
+}
+
+/* Line under subhead 2 */
+.taghead{
   text-align: center;
 }
 
@@ -57,6 +64,13 @@ p {
   font-family: helvetica, arial, sans-serif;
   font-size: 17.5px;
 }
+
+/* Participants names */
+.burner {
+  font-size: 23.5px;
+  font-style: italic;
+}
+
 
 /* pull quote*/
 .pquote {
