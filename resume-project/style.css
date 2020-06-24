@@ -22,8 +22,6 @@ body {
 .bg-light {
   background-color: #c2d5f3 !important;
   border-top: 5.5px solid black;
-  border-left: 5.5px solid black;
-  border-right: 5.5px solid black;
   border-bottom: 5.5px solid black;
 }
 
@@ -36,14 +34,8 @@ body {
 /* START OF ID A (PROFILE) */
 #a {
   background-color: white;
-
 }
 
-/* Circle Photo */
-.headshot {
-  width: 400px;
-
-}
 
 /* banner name i.e."Jaime Dee" */
 #name {
@@ -86,18 +78,7 @@ body {
   color: black;
 }
 
-/* Font Awesomeness */
-.fas {
-  display: inline;
-}
-
-.fab {
-  display: inline;
-}
-/* End of Font Awesomeness */
-
 /* Contact Details */
-
 /* This controls the whole entire list and its surrondings */
 .menu {
   margin: 0;
@@ -151,7 +132,11 @@ body {
 
 /* START OF ID B (EXPERIENCE)*/
 #b {
-  background-color: #f2efe1;
+  background-color: white;
+}
+
+.pictures {
+  padding-left: 30px;
 }
 
 /* I added some padding to the left because it seems as though Adam did the same thing */
@@ -169,8 +154,6 @@ body {
   min-width: 300px;
   padding-left: 20px;
   border-top: 5.5px solid black;
-  border-left: 5.5px solid black;
-  border-right: 5.5px solid black;
   border-bottom: 5.5px solid black;
 }
 
@@ -222,8 +205,7 @@ body {
 
 /* START OF ID D (EDUCATION)*/
 #d {
-  background-color: #f2efe1;
-
+  background-color: white;
 }
 
 .degrees {
@@ -251,10 +233,12 @@ body {
 }
 
 #do {
-  margin-top: 5px;
-  margin-bottom: 0;
-  margin-left: 0;
-  margin-right: 0;
+  margin-top: 20px;
+  text-align: center;
+}
+
+#do ul {
+  margin-top: 12px;
 }
 /* END OF ID E*/
 
