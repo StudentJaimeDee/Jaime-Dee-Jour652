@@ -1,0 +1,146 @@
+/* Bar at the very top of my page */
+.nav-logo {
+  color: #fff;
+  margin:0 auto;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
+/* Nav bar color */
+.navbar {
+  background-color: black !important;
+}
+
+/* This is just for the word entertainment */
+.word {
+  color: red;
+}
+
+/* Splash Area */
+.hero-container {
+  position: relative;
+  text-align: center;
+  color: #fff;
+}
+
+/* This is for the big image at the tip of the screen */
+.hero-image {
+  width: 100%;
+}
+
+.overlay {
+  position: absolute;
+  top: 35%;
+  width: 100%;
+  background-color: #000;
+  opacity: .7;
+}
+
+.hero-head {
+  font-size: 4em;
+  font-weight: bold;
+  color: red;
+  margin: 0 auto;
+  padding-bottom: 10px;
+}
+
+.hero-sub {
+  color: white;
+  font-weight: normal;
+  font-family: "Montserrat", sans-serif;
+  font-size: .49em;
+}
+/*End of splash image stuff */
+
+
+
+/* headline */
+.headline {
+  font-size: 3.3em;
+  font-weight: 700;
+  text-align: center;
+  font-family: "Montserrat", sans-serif;
+}
+
+/* Picture after my headline */
+.instaphotos-caption {
+    color: #9ea4ca;
+}
+
+/* Yara's photo */
+.yara {
+  border: 1px solid #33485e;
+}
+
+/* Kendrick's photo */
+.kendrick {
+  border: 1px solid #33485e;
+}
+/* End of Picture after my headline */
+
+
+.byline {
+  font-size: 1em;
+  text-transform: uppercase;
+  font-family: "Montserrat", sans-serif;
+  text-align: center;
+}
+
+.chapter {
+  font-size: 2em;
+  font-weight: 650;
+  font-family: "Montserrat", sans-serif;
+}
+
+.beyonce {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+/*caption under the banner and photos */
+.caption {
+color: #9ea4ca;
+text-align: center;
+}
+
+p {
+  font-family: georgia, serif;
+  line-height: 180%;
+}
+
+/* This is where i put my sources pictures */
+.row {
+  text-align: center;
+}
+
+.source-name {
+  font-size: 1.5em;
+}
+
+
+.copyright {
+  color: white;
+  background-color: black;
+  text-align: center;
+}
+
+
+
+
+
+
+
+
+
+/* Media Queries */
+@media(max-width: 550px) {
+  p {
+    padding-left: 20px;
+    padding-right: 10px;
+  }
+
+  .hero-head {
+    font-size: 1.5em;
+  }
+}
