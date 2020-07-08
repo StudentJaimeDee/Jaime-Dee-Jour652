@@ -78,38 +78,33 @@
 }
 /* End of Picture after my headline */
 
+/*caption under the banner and photos */
+.caption {
+color: #9ea4ca;
+}
 
+/* THIS is the By: part */
 .byline {
-  font-size: 1em;
-  text-transform: uppercase;
+  font-size: 14px;
   font-family: "Montserrat", sans-serif;
-  text-align: center;
+  font-style: italic;
 }
 
-.chapter {
-  font-size: 2em;
-  font-weight: 650;
-  font-family: "Montserrat", sans-serif;
-}
-
+/* THIS IS FOR THE BEYONCE PHOTO ALL THE WAY AT
 .beyonce {
   display: block;
   margin-left: auto;
   margin-right: auto;
 }
+ THE BOTTOM */
 
-/*caption under the banner and photos */
-.caption {
-color: #9ea4ca;
-text-align: center;
-}
-
+/* THIS IS FOR ALL OF MY TEXT */
 p {
-  font-family: georgia, serif;
+  font-family: georgia, sans-serif;
   line-height: 180%;
 }
 
-/* This is where i put my sources pictures */
+/* This is where i put my sources pictures at the bottom of the page */
 .row {
   text-align: center;
 }
