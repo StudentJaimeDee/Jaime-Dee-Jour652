@@ -104,6 +104,11 @@ p {
   line-height: 180%;
 }
 
+.first-letter {
+  font-size: 300%;
+  color: red;
+}
+
 /*Kendrick photo */
 .kendrick {
   display: block;
@@ -116,6 +121,13 @@ p {
   text-align: center;
   color: #9ea4ca;
 }
+
+
+/*Kendrick photo */
+.terry {
+border: 1px solid #33485e;
+}
+
 
 /* This is where i put my sources pictures at the bottom of the page */
 .row {
