@@ -1,0 +1,197 @@
+/* Bar at the very top of my page */
+.nav-logo {
+  color: #fff;
+  margin:0 auto;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
+/* Nav bar color */
+.navbar {
+  background-color: black !important;
+}
+
+/* This is just for the word entertainment */
+.word {
+  color: red;
+}
+
+/* Splash Area */
+.hero-container {
+  position: relative;
+  text-align: center;
+  color: #fff;
+}
+
+/* This is for the big image at the tip of the screen */
+.hero-image {
+  width: 100%;
+}
+
+.overlay {
+  position: absolute;
+  top: 35%;
+  width: 100%;
+  background-color: #000;
+  opacity: .7;
+}
+
+.hero-head {
+  font-size: 4em;
+  font-weight: bold;
+  color: red;
+  margin: 0 auto;
+  padding-bottom: 10px;
+}
+
+.hero-sub {
+  color: white;
+  font-weight: normal;
+  font-family: "Montserrat", sans-serif;
+  font-size: .49em;
+}
+/*End of splash image stuff */
+
+
+
+/* headline */
+.headline {
+  font-size: 3.3em;
+  font-weight: 700;
+  text-align: center;
+  font-family: "Montserrat", sans-serif;
+}
+
+/* Picture after my headline */
+.instaphotos-caption {
+    color: #9ea4ca;
+    text-align: center;
+}
+
+/* Yara's photo */
+.yara {
+  border: 1px solid #33485e;
+}
+
+/* Obama's photo */
+.obama {
+  border: 1px solid #33485e;
+}
+/* End of Picture after my headline */
+
+/*caption under the banner and photos */
+.caption {
+color: #9ea4ca;
+}
+
+/* THIS is the By: part */
+.byline {
+  font-size: 14px;
+  font-family: "Montserrat", sans-serif;
+  font-style: italic;
+}
+
+/* THIS IS FOR THE BEYONCE PHOTO ALL THE WAY AT
+.beyonce {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+ THE BOTTOM */
+
+/* THIS IS FOR ALL OF MY TEXT */
+p {
+  font-family: georgia, sans-serif;
+  line-height: 180%;
+}
+
+.first-letter {
+  font-size: 300%;
+  color: red;
+}
+
+/*Kendrick photo */
+.kendrick {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  border: 1px solid #33485e;
+}
+
+.kendrick-caption {
+  text-align: center;
+  color: #9ea4ca;
+}
+
+
+/*Kendrick photo */
+.terry {
+border: 1px solid #33485e;
+}
+
+
+/* This is where i put my sources pictures at the bottom of the page */
+.row {
+  text-align: center;
+}
+
+.source-name {
+  font-size: 1.5em;
+}
+/* END SOURCES */
+
+
+
+/* pull quote*/
+.pquote {
+    float: left;
+    margin: auto;
+    width: 200px;
+    background: url(images/openquote.gif) top left no-repeat;
+    color: #0600ff;
+    font-size: 26px;
+    line-height: 0.9;
+    font-style: italic;
+    padding: 13px;
+}
+
+blockquote {
+    margin: 0; /* gets rid of the default blockquote margin */
+    padding: 13px;
+    border-left: 4px solid #ccc;
+}
+
+.pquote p:first-letter {
+    font-size: 39px;
+    font-weight: bold;
+}
+/* END PULL QUOTE */
+
+
+/* COPYRIGHT AT THE VERY BOTTOM */
+.copyright {
+  color: white;
+  background-color: black;
+  text-align: center;
+}
+
+
+
+
+
+
+
+
+
+
+/* Media Queries */
+@media(max-width: 550px) {
+  p {
+    padding-left: 20px;
+    padding-right: 10px;
+  }
+
+  .hero-head {
+    font-size: 1.5em;
+  }
+}
